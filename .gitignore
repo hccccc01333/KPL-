@@ -94,8 +94,13 @@ scripts/train_realtime_model.py
 scripts/train_realtime_model_v6.py
 scripts/train_realtime_model_v7.py
 scripts/train_realtime_model_v8.py
+scripts/ablate_v9_features.py
 
 # 运行时状态（本机监控产生）
 data/realtime/daemon_status.json
 data/realtime/monitor_status.json
 data/realtime/backfill_status.json
+data/realtime/ablation_v10_report.json
+
+# 分析宽表样例（体积/噪音大，非核心展示）
+data/analysis/
