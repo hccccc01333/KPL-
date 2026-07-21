@@ -74,3 +74,10 @@ failed.csv
 !.env.example
 **/secrets.json
 **/credentials.json
+
+# ===== 非展示面（学习/面试草稿，不上传）=====
+notebooks/
+回炉理解计划.md
+docs/面试Demo脚本.md
+docs/思路任务书.md
+docs/技术学习路线.md
