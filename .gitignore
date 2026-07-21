@@ -75,9 +75,27 @@ failed.csv
 **/secrets.json
 **/credentials.json
 
-# ===== 非展示面（学习/面试草稿，不上传）=====
+# ===== 非展示面（学习草稿 / 笔记 / 脚手架，不上传）=====
 notebooks/
 回炉理解计划.md
 docs/面试Demo脚本.md
 docs/思路任务书.md
 docs/技术学习路线.md
+docs/接口逆向笔记.md
+docs/项目设计.md
+
+# 早期学习脚手架（生产入口在 scripts/）
+src/
+app/
+
+# 本地调试脚本
+scripts/_*.py
+scripts/train_realtime_model.py
+scripts/train_realtime_model_v6.py
+scripts/train_realtime_model_v7.py
+scripts/train_realtime_model_v8.py
+
+# 运行时状态（本机监控产生）
+data/realtime/daemon_status.json
+data/realtime/monitor_status.json
+data/realtime/backfill_status.json
