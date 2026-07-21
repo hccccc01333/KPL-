@@ -1,0 +1,15 @@
+# Prefer product code in GitHub language stats (HR showcase)
+
+# Documentation / config — don't dominate the language bar
+*.md linguist-documentation
+docs/** linguist-documentation
+
+# Data artifacts — not "source language"
+*.json linguist-generated
+*.csv linguist-generated
+*.parquet linguist-generated
+*.png linguist-generated
+
+# Notebooks (if any reappear) — exclude from language stats
+*.ipynb linguist-vendored
+notebooks/** linguist-vendored
