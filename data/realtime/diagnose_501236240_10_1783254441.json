@@ -1,0 +1,189 @@
+{
+  "battle_id": "501236240_10_1783254441",
+  "win_camp": 2,
+  "camp1": "深圳DYG",
+  "camp2": "成都AG超玩会",
+  "n_points": 11,
+  "acc": 0.9090909090909091,
+  "brier": 0.11630548382152472,
+  "gold_guard_hits": 5,
+  "wrong_minutes": [
+    {
+      "minute_bin": 1,
+      "prob": 0.8421052631578947,
+      "prob_raw": 0.8421052631578947,
+      "gold_diff": 201.0,
+      "gold_guard": false,
+      "top_factor": "地图压力"
+    }
+  ],
+  "by_phase": {
+    "early": {
+      "n": 8,
+      "acc": 0.875,
+      "brier": 0.1433433296277333,
+      "avg_prob": 0.26184539984866334,
+      "avg_gold_diff": -1834.625,
+      "guard_hits": 2
+    },
+    "mid": {
+      "n": 3,
+      "acc": 1.0,
+      "brier": 0.044204561671635195,
+      "avg_prob": 0.18586468358397087,
+      "avg_gold_diff": -5978.0,
+      "guard_hits": 3
+    },
+    "late": {
+      "n": 0,
+      "acc": null,
+      "brier": null,
+      "avg_prob": null
+    }
+  },
+  "timeline": [
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 0.5,
+      "minute_bin": 1,
+      "label": 0,
+      "prob": 0.8421052631578947,
+      "prob_raw": 0.8421052631578947,
+      "gold_diff": 201.0,
+      "gold_guard": false,
+      "low_confidence": true,
+      "top_factor": "地图压力",
+      "correct": 0
+    },
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 2.8333333333333335,
+      "minute_bin": 2,
+      "label": 0,
+      "prob": 0.02,
+      "prob_raw": 0.02,
+      "gold_diff": -697.0,
+      "gold_guard": false,
+      "low_confidence": true,
+      "top_factor": "伤害转化",
+      "correct": 1
+    },
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 3.0833333333333335,
+      "minute_bin": 3,
+      "label": 0,
+      "prob": 0.02,
+      "prob_raw": 0.02,
+      "gold_diff": -829.0,
+      "gold_guard": false,
+      "low_confidence": true,
+      "top_factor": "近期动量",
+      "correct": 1
+    },
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 4.75,
+      "minute_bin": 4,
+      "label": 0,
+      "prob": 0.3333333333333333,
+      "prob_raw": 0.3333333333333333,
+      "gold_diff": -1300.0,
+      "gold_guard": false,
+      "low_confidence": true,
+      "top_factor": "近期动量",
+      "correct": 1
+    },
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 5.083333333333333,
+      "minute_bin": 5,
+      "label": 0,
+      "prob": 0.45674823963182687,
+      "prob_raw": 0.8421052631578947,
+      "gold_diff": -1284.0,
+      "gold_guard": true,
+      "low_confidence": true,
+      "top_factor": "近期动量",
+      "correct": 1
+    },
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 6.6,
+      "minute_bin": 6,
+      "label": 0,
+      "prob": 0.02,
+      "prob_raw": 0.02,
+      "gold_diff": -3380.0,
+      "gold_guard": false,
+      "low_confidence": false,
+      "top_factor": "地图压力",
+      "correct": 1
+    },
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 7.1,
+      "minute_bin": 7,
+      "label": 0,
+      "prob": 0.067793924196422,
+      "prob_raw": 0.067793924196422,
+      "gold_diff": -3729.0,
+      "gold_guard": false,
+      "low_confidence": false,
+      "top_factor": "资源控制",
+      "correct": 1
+    },
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 8.766666666666667,
+      "minute_bin": 8,
+      "label": 0,
+      "prob": 0.3347824384698298,
+      "prob_raw": 0.54,
+      "gold_diff": -3659.0,
+      "gold_guard": true,
+      "low_confidence": false,
+      "top_factor": "资源控制",
+      "correct": 1
+    },
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 9.1,
+      "minute_bin": 9,
+      "label": 0,
+      "prob": 0.32485063407801285,
+      "prob_raw": 0.8,
+      "gold_diff": -4112.0,
+      "gold_guard": true,
+      "low_confidence": false,
+      "top_factor": "资源控制",
+      "correct": 1
+    },
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 10.616666666666667,
+      "minute_bin": 10,
+      "label": 0,
+      "prob": 0.11707936344302604,
+      "prob_raw": 0.0,
+      "gold_diff": -6456.0,
+      "gold_guard": true,
+      "low_confidence": false,
+      "top_factor": "资源控制",
+      "correct": 1
+    },
+    {
+      "battle_id": "501236240_10_1783254441",
+      "minute": 11.116666666666667,
+      "minute_bin": 11,
+      "label": 0,
+      "prob": 0.11566405323087371,
+      "prob_raw": 0.0,
+      "gold_diff": -7366.0,
+      "gold_guard": true,
+      "low_confidence": false,
+      "top_factor": "资源控制",
+      "correct": 1
+    }
+  ]
+}

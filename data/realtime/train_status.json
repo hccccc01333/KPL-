@@ -1,0 +1,39 @@
+{
+  "updated_at": "2026-07-20 18:42:22",
+  "state": "ready",
+  "reason": "manual_train",
+  "version": "V11",
+  "model_name": "VotingV11 EarlyRF + MidRFStrong",
+  "early_model": "RF-only",
+  "trained_at": "2026-07-20 18:42:21",
+  "auc": 0.9252761906381435,
+  "accuracy": 0.8354129530600118,
+  "holdout_real_brier": 0.05410935718830997,
+  "holdout_real_ece": 0.09994029122232802,
+  "holdout_early_brier": 0.06798024978265788,
+  "holdout_mid_brier": 0.037646691428312846,
+  "holdout_late_brier": 0.06012135738594075,
+  "comeback_acc": 0.9375,
+  "comeback_brier": 0.04296307374251804,
+  "worst_battle_acc": 0.8181818181818182,
+  "holdout_battles": [
+    "501236240_10_1783254441",
+    "501236240_11_1783256096",
+    "501236240_12_1784462563",
+    "501236240_8_1784297598",
+    "970998288_4_1783244960",
+    "970998288_5_1783247198",
+    "970998288_6_1783249163",
+    "970998288_7_1783250863"
+  ],
+  "early_prob_clip": [
+    0.02,
+    0.98
+  ],
+  "use_time_shrinkage": false,
+  "use_gold_guard": true,
+  "midlate_calibrator": "isotonic",
+  "real_rows": 1335,
+  "sim_rows": 1158,
+  "calibrator": "early_isotonic+midlate_isotonic"
+}

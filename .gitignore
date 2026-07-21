@@ -1,0 +1,76 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# ===== 虚拟环境 =====
+venv/
+env/
+.venv/
+.conda/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== 日志 / 缓存 =====
+*.log
+logs/
+catboost_info/
+.cache/
+tmp/
+temp/
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 模型权重（体积大，本地训练生成）=====
+*.pkl
+*.joblib
+*.cbm
+models/
+output/models/
+data/realtime/models/
+
+# ===== 原始 / 大体量数据（勿上传）=====
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+!data/processed/README.md
+
+# 实时快照与预测时间线（约 GB 级）
+data/realtime/raw_snapshots/
+data/realtime/backup_snapshots/
+data/realtime/predictions/
+data/realtime/datasets/clean/
+data/realtime/datasets/quarantine/
+data/realtime/logs/
+data/realtime/*.csv
+!data/realtime/schedule_archive.csv
+!data/realtime/datasets/clean_manifest.csv
+!data/realtime/datasets/quarantine_manifest.csv
+
+# 可选本地大文件
+data/realtime/live_snapshots.csv
+failed.csv
+
+# ===== 密钥（若以后加入）=====
+.env
+.env.*
+!.env.example
+**/secrets.json
+**/credentials.json

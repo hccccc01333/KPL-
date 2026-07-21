@@ -1,0 +1,256 @@
+{
+  "holdout_battles": [
+    "970998288_4_1783244960",
+    "970998288_5_1783247198",
+    "970998288_6_1783249163",
+    "970998288_7_1783250863",
+    "501236240_10_1783254441",
+    "501236240_11_1783256096",
+    "501236240_8_1784297598",
+    "501236240_12_1784462563"
+  ],
+  "inference_zero_out": {
+    "baseline_early_brier": 0.055575028897907205,
+    "baseline_mid_brier": 0.0450961078435404,
+    "baseline_all_brier": 0.05802059293982392,
+    "groups": [
+      {
+        "group": "accel",
+        "cols": [
+          "gold_diff_accel"
+        ],
+        "early_brier": 0.05923336632557995,
+        "mid_brier": 0.04485547546850566,
+        "all_brier": 0.059976108128336286,
+        "delta_early": 0.003658337427672742,
+        "delta_mid": -0.00024063237503474388,
+        "delta_all": 0.0019555151885123634,
+        "hurts_if_zero_improves": false
+      },
+      {
+        "group": "momentum",
+        "cols": [
+          "kill_momentum_diff"
+        ],
+        "early_brier": 0.05626874419940391,
+        "mid_brier": 0.04510860377911152,
+        "all_brier": 0.05833736592136892,
+        "delta_early": 0.0006937153014967071,
+        "delta_mid": 1.249593557112183e-05,
+        "delta_all": 0.00031677298154499794,
+        "hurts_if_zero_improves": false
+      },
+      {
+        "group": "lane_crush",
+        "cols": [
+          "lane_crush_count"
+        ],
+        "early_brier": 0.055644091392076066,
+        "mid_brier": 0.04627979683412855,
+        "all_brier": 0.058543144403635526,
+        "delta_early": 6.906249416886029e-05,
+        "delta_mid": 0.0011836889905881484,
+        "delta_all": 0.0005225514638116033,
+        "hurts_if_zero_improves": false
+      },
+      {
+        "group": "roll4",
+        "cols": [
+          "gold_diff_roll4",
+          "gold_diff_roll4_per_min",
+          "gold_diff_jungle_roll4",
+          "gold_diff_adc_roll4"
+        ],
+        "early_brier": 0.07790316101784067,
+        "mid_brier": 0.047906430380129296,
+        "all_brier": 0.07005675281963332,
+        "delta_early": 0.022328132119933466,
+        "delta_mid": 0.0028103225365888954,
+        "delta_all": 0.012036159879809397,
+        "hurts_if_zero_improves": false
+      },
+      {
+        "group": "roll10",
+        "cols": [
+          "gold_diff_roll10",
+          "gold_diff_roll10_per_min"
+        ],
+        "early_brier": 0.059689611048466325,
+        "mid_brier": 0.05603260153610799,
+        "all_brier": 0.06525051755070213,
+        "delta_early": 0.004114582150559119,
+        "delta_mid": 0.010936493692567592,
+        "delta_all": 0.007229924610878208,
+        "hurts_if_zero_improves": false
+      },
+      {
+        "group": "win35",
+        "cols": [
+          "win35_kill_diff",
+          "win35_death_diff",
+          "win35_hurt_diff"
+        ],
+        "early_brier": 0.05551532780351436,
+        "mid_brier": 0.045188140135745306,
+        "all_brier": 0.05814614669533597,
+        "delta_early": -5.9701094392843046e-05,
+        "delta_mid": 9.203229220490494e-05,
+        "delta_all": 0.00012555375551204923,
+        "hurts_if_zero_improves": true
+      },
+      {
+        "group": "win911",
+        "cols": [
+          "win911_kill_diff",
+          "win911_death_diff",
+          "win911_hurt_diff"
+        ],
+        "early_brier": 0.0555750288979072,
+        "mid_brier": 0.0450961078435404,
+        "all_brier": 0.05802059293982392,
+        "delta_early": -6.938893903907228e-18,
+        "delta_mid": 0.0,
+        "delta_all": 0.0,
+        "hurts_if_zero_improves": false
+      },
+      {
+        "group": "concentration",
+        "cols": [
+          "hurt_conc_diff",
+          "behurt_conc_diff"
+        ],
+        "early_brier": 0.055057475366249664,
+        "mid_brier": 0.04666690662604207,
+        "all_brier": 0.05876121978377948,
+        "delta_early": -0.0005175535316575414,
+        "delta_mid": 0.0015707987825016728,
+        "delta_all": 0.0007406268439555594,
+        "hurts_if_zero_improves": true
+      },
+      {
+        "group": "obj_convert",
+        "cols": [
+          "obj_tower_convert"
+        ],
+        "early_brier": 0.05470943263668435,
+        "mid_brier": 0.04666225230043363,
+        "all_brier": 0.0585941384386066,
+        "delta_early": -0.0008655962612228521,
+        "delta_mid": 0.00156614445689323,
+        "delta_all": 0.0005735454987826766,
+        "hurts_if_zero_improves": true
+      },
+      {
+        "group": "pos_kda",
+        "cols": [
+          "kill_diff_jungle",
+          "kill_diff_adc",
+          "death_diff_jungle",
+          "death_diff_adc",
+          "behurt_diff_top",
+          "behurt_diff_support"
+        ],
+        "early_brier": 0.054707874713319546,
+        "mid_brier": 0.052861615035933174,
+        "all_brier": 0.06562682169283432,
+        "delta_early": -0.0008671541845876596,
+        "delta_mid": 0.007765507192392773,
+        "delta_all": 0.007606228753010397,
+        "hurts_if_zero_improves": true
+      }
+    ]
+  },
+  "retrain_early_rf": {
+    "baseline_early_brier": 0.2054149473875331,
+    "groups": [
+      {
+        "group": "accel",
+        "cols": [
+          "gold_diff_accel"
+        ],
+        "early_brier": 0.20426719282808278,
+        "delta_early": -0.0011477545594503202,
+        "suggest_drop": true
+      },
+      {
+        "group": "momentum",
+        "cols": [
+          "kill_momentum_diff"
+        ],
+        "early_brier": 0.20331401049366346,
+        "delta_early": -0.0021009368938696427,
+        "suggest_drop": true
+      },
+      {
+        "group": "lane_crush",
+        "cols": [
+          "lane_crush_count"
+        ],
+        "early_brier": 0.20306349394107942,
+        "delta_early": -0.002351453446453683,
+        "suggest_drop": true
+      },
+      {
+        "group": "roll4",
+        "cols": [
+          "gold_diff_roll4",
+          "gold_diff_roll4_per_min",
+          "gold_diff_jungle_roll4",
+          "gold_diff_adc_roll4"
+        ],
+        "early_brier": 0.21540066386924592,
+        "delta_early": 0.009985716481712814,
+        "suggest_drop": false
+      },
+      {
+        "group": "win35",
+        "cols": [
+          "win35_kill_diff",
+          "win35_death_diff"
+        ],
+        "early_brier": 0.19785253182942567,
+        "delta_early": -0.007562415558107438,
+        "suggest_drop": true
+      },
+      {
+        "group": "concentration",
+        "cols": [
+          "hurt_conc_diff"
+        ],
+        "early_brier": 0.20101774592038812,
+        "delta_early": -0.004397201467144979,
+        "suggest_drop": true
+      }
+    ],
+    "suggest_drop_groups": [
+      "accel",
+      "momentum",
+      "lane_crush",
+      "win35",
+      "concentration"
+    ],
+    "early_feature_columns_recommended": [
+      "gold_diff_per_min",
+      "gold_ratio",
+      "kill_diff_per_min",
+      "kill_rate",
+      "assist_diff_per_min",
+      "death_diff",
+      "kda_diff",
+      "tower_diff",
+      "minute_bin",
+      "team_winrate_diff",
+      "gold_diff_mid",
+      "gold_diff_support",
+      "gold_diff_jungle",
+      "gold_diff_top",
+      "gold_diff_adc",
+      "carry_dominance",
+      "gold_diff_roll4",
+      "gold_diff_roll4_per_min",
+      "gold_diff_jungle_roll4",
+      "gold_diff_adc_roll4"
+    ]
+  },
+  "note": "Zero-out Δ>0 means group helps current model. Retrain suggest_drop means removing group lowers early Brier by >0.001."
+}

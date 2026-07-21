@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-07-21 15:29:36",
+  "state": "running",
+  "match_id": "2026072101",
+  "battle_id": "48251408_4_1784617775",
+  "match": "07-21 14:00 · 长沙TES.A vs 上海EDG.M · 进行中",
+  "camp1_team": "长沙TES.A",
+  "camp2_team": "上海EDG.M",
+  "minute": 7.77,
+  "snapshot_time_sec": 466,
+  "lag_sec": "",
+  "clock_jump": true,
+  "low_confidence": false,
+  "confidence": "medium",
+  "camp1_win_prob": 0.98,
+  "camp2_win_prob": 0.02,
+  "gold_diff": 1108,
+  "top_factor": "近期动量",
+  "poll_interval_sec": 4,
+  "prediction_path": "D:\\AI数据分析\\项目作品集\\02-KPL实时胜率预测系统\\data\\realtime\\predictions\\48251408_4_1784617775.csv",
+  "model_name": "VotingV11 EarlyRF + MidRFStrong"
+}
