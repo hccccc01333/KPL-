@@ -363,7 +363,7 @@ def run_backtest(
             "comeback_acc": comeback_metrics.get("all", {}).get("accuracy") if comeback_metrics else None,
             "bad_battle_acc": bad_battle_acc,
             "bad_battle_late_dir": bad_battle_late_dir,
-            "note": "面试主数字请引用 holdout_real 分阶段 Brier/ECE，而非混合 AUC",
+            "note": "主数字请引用 holdout_real 分阶段 Brier/ECE，而非混合 AUC",
         },
     }
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)

@@ -586,6 +586,6 @@
     "comeback_acc": 0.9375,
     "bad_battle_acc": 0.8666666666666667,
     "bad_battle_late_dir": 0.875,
-    "note": "面试主数字请引用 holdout_real 分阶段 Brier/ECE，而非混合 AUC"
+    "note": "主数字请引用 holdout_real 分阶段 Brier/ECE，而非混合 AUC"
   }
 }
